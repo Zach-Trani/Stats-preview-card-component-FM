@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(233, 50%, 21%);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 446px;
+}
+
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(244, 38%, 29%);
+    width: 50%;
+}
+
+.container-right {
+    background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.container-left-bottom {
+    width: 60%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 60%;
+}
+
+.notes {
+    width: 60%;
+}
