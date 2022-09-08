@@ -13,7 +13,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 1080px;
     height: 446px;
 }
 
@@ -23,13 +23,13 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: hsl(244, 38%, 29%);
-    width: 50%;
+    width: 540px;
 }
 
 .container-right {
     background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-desktop.jpg");
     background-repeat: no-repeat;
-    width: 40%;
+    width: 540px;
 }
 
 .container-left-bottom {
