@@ -48,8 +48,25 @@ body {
     width: 60%;
 }
 
-@media all and (min-width: 320px) and (max-width: 780px) {
+
+/* Default styles first then media queries */
+@media screen and (min-width: 400px) {
     body {
         background-color: white;
+    }
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: red;
+    }
+}
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: orange;
     }
 }
