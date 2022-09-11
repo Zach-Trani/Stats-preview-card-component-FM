@@ -72,4 +72,4 @@ body {
 }
 
 /* alt approach for responsiveness */
-@media all and (min-width: 320px) and (max-width: 780px) {...}
+/* @media all and (min-width: 320px) and (max-width: 780px) {...} */
