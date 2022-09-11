@@ -49,7 +49,7 @@ body {
 }
 
 /* scroll through features */
-/* Default styles first then media queries */
+/* default styles first then media queries */
 @media screen and (min-width: 400px) {
     body {
         background-color: white;
