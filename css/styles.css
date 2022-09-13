@@ -52,7 +52,9 @@ body {
 /* default styles first then media queries */
 @media screen and (max-width: 390px) {
     .container-right {
-        background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-mobile.jpg")
+        background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-mobile.jpg");
+        height: auto;
+        width: 100%;
     }
 
     .container {
@@ -64,11 +66,6 @@ body {
         background-color: hsl(244, 38%, 29%);
     }
     
-    .container-right {
-        height: auto;
-        width: 100%;
-    }
-
 }
 
 /* Alt approach for responsiveness */
