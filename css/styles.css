@@ -55,6 +55,11 @@ body {
         background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-mobile.jpg")
     }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /* Alt approach for responsiveness */
