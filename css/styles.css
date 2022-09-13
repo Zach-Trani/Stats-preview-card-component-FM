@@ -60,6 +60,14 @@ body {
         flex-direction: column;
     }
 
+    .container-left {
+        background-color: hsl(244, 38%, 29%);
+    }
+    
+    .container-right {
+        height: 480px;
+    }
+
 }
 
 /* Alt approach for responsiveness */
