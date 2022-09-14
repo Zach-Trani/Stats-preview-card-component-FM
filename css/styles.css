@@ -51,6 +51,13 @@ body {
 /* scroll through features */
 /* default styles first then media queries */
 @media screen and (max-width: 390px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 90%;
+    }
+
     .container-right {
         background: linear-gradient(rgba(196, 4, 249, 0.5), rgba(196, 4, 249, 0.5)), url("../images/image-header-mobile.jpg");
         height: 100vh;
@@ -59,14 +66,9 @@ body {
     }
 
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        height: 600px;
-    }
-
     .container-left {
         background-color: hsl(244, 38%, 29%);
+        width: 100%;
     }
     
 }
