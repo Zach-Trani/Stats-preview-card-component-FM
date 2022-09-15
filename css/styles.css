@@ -1,6 +1,10 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -9,6 +13,7 @@ body {
     background-color: hsl(233, 50%, 21%);
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 10px;
 }
 
 /* parent container */
