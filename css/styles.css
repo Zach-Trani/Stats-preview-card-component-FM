@@ -43,6 +43,7 @@ body {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    font-size: 1.4rem;
 }
 
 .header {
