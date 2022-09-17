@@ -59,7 +59,6 @@ body {
     .container {
         display: flex;
         flex-direction: column-reverse;
-        /* height should not be arbitrary @ 70% */
         height: 70%;
         width: 100%;
         /* padding: 40px 10px; */
