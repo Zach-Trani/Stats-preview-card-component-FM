@@ -53,8 +53,7 @@ body {
     width: 60%;
 }
 
-/* scroll through features */
-/* default styles first then media queries */
+/* responsive to iphone */
 @media screen and (max-width: 390px) {
     .container {
         display: flex;
